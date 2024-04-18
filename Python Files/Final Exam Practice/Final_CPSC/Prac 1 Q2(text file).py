@@ -1,0 +1,6 @@
+x = open("test_2.txt", "w")
+x.write('Hello,\nThis is to inform you that you have been selected.')
+x.close()
+x=open('test_2.txt', 'r')
+print(x.read())
+x.close()
